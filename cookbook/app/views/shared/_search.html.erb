@@ -1,0 +1,15 @@
+<%= form_tag recipes_url, method: :get do %>
+  <fieldset>
+    <legend>Search Options:</legend>
+    <label for="query">Keywords: </label>
+    <input type="search" id="query" name="q" value="<%= params[:q] %>">
+    <label for="category">Category: </label>
+    <select id="category" name="c" value="<%= params[:c] %>">
+      <option value=""></option>
+      <% @allcategories.each do |category| %>
+      <option value="<%= category.id %>"><%= category.name %></option>
+      <% end %>
+    </select>
+    <input type="submit" value="Search">
+  </fieldset>
+<% end %>

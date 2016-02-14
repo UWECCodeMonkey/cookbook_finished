@@ -1,0 +1,8 @@
+$noticeColor: #444;
+
+div#notice {
+    color: $noticeColor;
+    font-size: 2em;
+    margin: auto auto;
+    display: inline;
+}

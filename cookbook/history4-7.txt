@@ -1,0 +1,47 @@
+    1  rails s
+    2  rails -s
+    3  cd cookbook
+    4  rails -s
+    5  rails s
+    6  rails s -p $PORT -b $IP
+    7  irg
+    8  irb
+    9  touch add_two_numbers.rb
+   10  ruby add_two_numbers.rb
+   11  git status
+   12  rails s -p $PORT -b $IP
+   13  git pull
+   14  cd ~/workspace/
+   15  git pull
+   16  git status
+   17  cd cookbook/
+   18  touch exercise_4_password_check.rb
+   19  ruby exercise_4_password_check.rb
+   20  touch exercise_4_add_three_numbers.rb
+   21  ruby exercise_4_add_three_numbers.rb 
+   22  touch exercise_4_display_emails.rb
+   23  ruby exercise_4_display_emails.rb 
+   24  rails s -p $PORT -b $IP
+   25  bundle exec rake routes
+   26  rails s -p $PORT -b $IP
+   27  bundle exec rake test
+   28  bundle exec ruby -Itest test/models/recipe_test.rb
+   29  rails s -p $PORT -b $IP
+   30  bundle exec ruby -Itest test/models/recipe_test.rb
+   31  rake db:migrate
+   32  bundle exec ruby -Itest test/models/recipe_test.rb
+   33  rake db:migrate
+   34  bundle exec ruby -Itest test/models/recipe_test.rb
+   35  rake db:migrate
+   36  bundle exec ruby -Itest test/models/recipe_test.rb
+   37  rails s -p $PORT -b $IP
+   38  bundle exec ruby -Itest test/models/recipe_test.rb
+   39  rails generate model category name:string
+   40  bundle exec rake db:migrate
+   41  bundle exec rake db:import_categories
+   42  rails generate migration add_category_id_to_recipes category:references
+   43  bundle exec rake db:migrate
+   44  rails s -p $PORT -b $IP
+   45  touch history.txt
+   46  touch history7.txt
+   47  history > history7.txt

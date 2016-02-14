@@ -1,0 +1,18 @@
+    1  cd cookbook
+    2  rails generate scaffold recipe title:string ingredients:text instructions:text
+    3  bundle exec rake db:migrate
+    4  rails server
+    5  rails s -p $3000 -b $IP
+    6  rails s -p 3000
+    7  rails server
+    8  ls
+    9  rails server
+   10  cd ~/workspace/
+   11  rails new store
+   12  cd store
+   13  rails generate scaffold Item name:string description:text price:decimal quantity:integer in_stock:boolean
+   14  bundle exec rake db:migrate
+   15  rails server -p 4000
+   16  history
+   17  touch history.txt
+   18  history > history.txt

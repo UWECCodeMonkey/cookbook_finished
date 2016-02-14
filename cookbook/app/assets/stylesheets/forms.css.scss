@@ -1,0 +1,36 @@
+$errorColor: #c00;
+
+div.field, div.actions {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field_with_errors {
+    background-color: $errorColor;
+    color: #fff;
+    display: inline-block;
+    padding: 1px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#error_explanation {
+    border: 2px solid $errorColor;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+        background-color: $errorColor;
+        color: #fff;
+        font-size: 12px;
+        margin: 0;
+        padding: 5px 5px 5px 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
